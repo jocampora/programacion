@@ -1,0 +1,51 @@
+RESUMEN
+Pyhton es un lenguaje de programacion para proposito general, facil aprendizaje, muchas librerias y gran ayuda por parte de la comunidad
+
+Con la funcion print se replica lo que se escribe en comillas
+En la consola si pongo type() me dice la clase de dato que es
+dir nos enseña en python que metodos podemos hacer con ciertos tipos de datos
+input toma un caracter de lo que se ponga en la consola
+
+Una Variable es un nombre simbolico para un valor y puedo guardar cualquier tipo de dato
+ Case sensitive es cuando aunque se creen variables "iguales", si un caracter cambia esta es otra variable totalmente distinta
+ Conventions, no podemos empezar la variable con un numero y se debe separar con un _ o una Mayuscula y existen tipos:
+    Snake Case,  Camel case, Pascal Case(la formalmente mas usada)
+ Si la Variable esta toda en mayuscula es para indicarle a los que estan trabajando en el codigo que el valor no debe cambiar, pero esto no afecta al codigo   
+ Python es un lenguaje dinamico, por lo que puedo reasignar el casi cualquier tipo de dato facilmente
+    
+Boolean(bool)=sirve para definir los estados de algo
+
+Strings(str) o cadenas de texto donde toda letra, espacio, etc. es un caracter distinto.
+  Puedo unir dos Strings (Concatenacion) usando el simbolo +
+  
+Los Numeros se dividen en 2 tipos, Integer(int) = Numeros Enteros y Float(float) = Numeros Decimal 
+
+Con list podemos definir una lista y de cualquier elemento y si no ponemos nada podemos hacer listas vacias
+  Colocando los elementos en otro parentisis los agrupamos en una tupla y se vuelven un solo elemento
+  Range nos ayuda a determinar de donde a donde quiero crear una lista de un rango determinado, llegando a un numero antes del segundo parametro
+  Con "" in podemos saber si un elemento esta en una lista
+  
+Las Tuples (tuple) es una lista donde los datos no se pueden cambiar denominado (inmutbale) y tambien se pueden dejar vacias
+  Las tuplas no se pueden modificar despues de ser asignadas y se utilizan cuando quieres que tu codigo este mas seguro o se ejecute mas rapido
+  Para que se pueda tomar el elemento como una tupla debe tener mas de un elemento o si vamos a usar solo uno, ponerle una coma al final ej. (1,)
+  
+Un Set es una coleccion desordenada y que no tiene un indice {}
+
+Dictonaries(dict) sirve para agrupar y definir datos con un nombre clave {"name":"Jesus"}
+  El primer dato es la clave(key) y el siguiente el el valor(value)
+
+El None (NoneType) es para no asignar ningun valor
+
+Los Condicionales ayudan a nuestro programar a determinar si una linea se debe ejecutar o no, en la medida que se cumplen una condiciones establecidas usando:
+If, Elif y Else
+  Tambien se usan los Operadores Logicos para tomar una decision en base a multiples condiciones: and, or. not
+
+Se utilizan los loop para que se realicen acciones con una lista o rango de datos repetitivamente o hasta que ua condicion se cumpla:
+  ej. FOR food IN foods:  y despues abajo debe ir un condicional 
+  Tambien se puede usar WHILE para hacer un ciclo infinito a menos que se condicione para que pare
+  
+Las funciones son codigos ya escritos o que podemos crear(def) que podemos darle valores para que se realice internamente y queden listas para usarlas de forma facil y ordenada
+
+Los modulos o bliblioteca es un fichero con codigo ya establecido que nos ayuda y facilita la creación de ciertas partes de nuestro codigo
+  Son 3 los tipos de modulos, los que podemos crear nosotros, los que se pueden bajar de internet y los de las propias bibliotecas de python
+  Con PyPI puedo añadir modulos externos a mi codigo ejecuntando el codigo de el modulo que quieras
