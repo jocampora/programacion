@@ -1,0 +1,33 @@
+Algoritmo para rutina de clase de Programacion
+
+Suena la alarma
+
+¿Me desperte?
+ V:SI F:NO
+  Si la respuesta es F, repertir desde (Suena la alarma) hasta que se de lo contrario
+  Si la respuesta es V, continuar
+  
+Me levanto de la cama
+
+Me cepillo y tomo agua 
+
+¿Tengo hambre?
+ V:SI F:NO
+  Si la respuesta es F, continuar
+  Si la respuesta es V, Preparo desayuno y como
+  
+¿Hace frio?
+V:SI F:NO
+ Si la respuesta es F, Me baño
+ Si la respuesta es V, continuar
+ 
+Prendo el computador
+
+Veo la clase
+
+Finalizo el algoritmo
+
+
+
+  
+  
